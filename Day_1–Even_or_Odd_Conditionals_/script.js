@@ -8,4 +8,12 @@ if(num % 2 === 0){
 }
 }
 
-checkIfEven(74)
+checkIfEven(72)
+
+// let num = 11;
+
+const checkOdd = (num)=>{
+    return num % 2 !== 0 ? `${num} is an Odd number` : `${num} is an Even number` 
+}
+
+console.log(checkOdd(43))
